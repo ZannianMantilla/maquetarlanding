@@ -1,0 +1,231 @@
+*{
+    font-size: 15px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 350;
+    font-style: light ;
+  }
+  
+  .background {
+    margin: 0;
+    background-image: url("/img/background.png");
+    background-size: auto;
+  }
+  
+  .titulos_w {
+    font-size: 70px;
+    font-family: "Ruslan Display", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    color: white;
+    text-align: center;
+    position: relative;
+    margin: -15px;
+    width: 350px;
+    line-height: 50px; 
+    text-shadow: 2px 2px 4px black;
+  }
+  
+  
+  .titulos_b {
+    font-size: 70px;
+    font-family: "Ruslan Display", sans-serif;
+    font-weight: 400;
+    font-style: bold;
+    color: black;
+    text-align: left;
+    width: 350px;
+    line-height: 50px; 
+      }
+  
+  /* navbar */
+  
+  .navbar{
+    margin: 130px;
+  }
+  
+  .navbar-menu li {
+    display: inline;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+    padding-right: 3.5rem;
+  }
+  
+  .navbar-menu li a.active {
+    color: black;
+    font-size: 21px;
+    font-weight: 1000;
+    text-decoration: underline;
+  }
+  
+  .btn-login {
+    font-weight: normal;
+    background-color: transparent;
+    border: 3px solid #ff00c8;
+    color: #ff00c8;
+    padding: 8px 16px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    width: 105px;
+  }
+  
+  .btn-sign-up {
+    margin-left: 3px;
+    font-weight: normal;
+    background-color: #ff00c8;
+    color: white;
+    padding: 11px 16px;
+    border: none;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    width: 100px;
+  }
+  
+  /* presentacion */
+  
+  
+  .container_present {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: black;
+    height: 500px;
+    
+  }
+  
+  
+  .p_presentacion{
+    color: rgb(255, 167, 167);
+    text-align: center;
+    width: 360px;
+    margin: 40px 0px 40px 0px;
+  }
+  
+  
+  .p_presentacion2{
+    text-align: right;
+    font-weight: 600;
+    color: rgb(255, 255, 255);
+    width: 25rem;
+  
+  }
+  
+  
+  .order_food{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 80px 40px 40px 40px;
+    gap: 40rem;
+  }
+  
+  .order_gradient {
+    color: white;
+      background-image: linear-gradient(to right, #ff00c8, #ffbcbc);
+      border-radius: 5px;
+      width: 200px; 
+      height: 50px; 
+  }
+  
+  /* galeria */
+  
+  .galeria_container{
+    margin: 250px 20px 20px 90px;
+  }
+  
+  .p_galeria{
+    width: 290px;
+    margin-bottom: 10px;
+  }
+  
+  
+  .btn-arrowizq_galeria {
+    padding: 8px 8px 2px 10px;
+    border-radius: 5px;
+    border: solid #ff00c8;
+    background-color: transparent;
+    border: 3px solid #ff00c8;
+    color: #ff00c8;
+    cursor: pointer;
+  }
+  
+  .btn-arrowder_galeria {
+    padding: 8px 8px 2px 10px;
+    border-radius: 5px;
+    border: solid #ff00c8;
+    background-color: #ff00c8;
+    color: white;
+    cursor: pointer;
+  }
+  
+  .sushi_galeria1{}
+  
+  
+  
+  /* cards */
+  
+  .contenedor_card {
+    display: flex;
+    gap: 3rem;
+    padding-top: 90px;
+    padding-bottom: 90px;
+    justify-content: center;
+  }
+  
+  h2 {
+    color: #fff;
+  }
+  
+  .card {
+    display: flex;
+    width: 400px;
+    padding: 0px;
+    flex-direction: column;
+    align-items: left;
+    border-radius: 50px;
+    border: none !important;
+  }
+  
+  .card__title {
+    text-align: left;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  .card__text {
+    text-align: left;
+  }
+  
+  /* correo */
+  
+      .form_centrado {
+        display: flex;
+        justify-content: center;
+      }
+  
+      .form_correo {
+        border-radius: 5px;
+        border: 2px solid #ff00c8; 
+        padding: 4px 25px; 
+        font-size: 16px; 
+      }
+  
+      .form_correo::placeholder {
+        display: flex;
+        margin-left: auto;
+        color: #ff00c8; 
+        font-size: 14px; 
+      }
+  
+      .btn-arrow_c {
+        padding: 8px 8px 0 10px;
+        border-top-right-radius: 5px;
+        border-bottom-right-radius: 5px;
+        border: solid #ff00c8;
+        background-color: #ff00c8;
+        color: white;
+        cursor: pointer;
+      }
+  
+      
+  /* footer */
